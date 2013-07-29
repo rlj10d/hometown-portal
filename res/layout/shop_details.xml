@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/AliceBlue" >
+    
+    	<ImageView
+    	    android:id="@+id/sdIcon"
+    	    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            />
+            
+     
+        <TextView
+            android:id="@+id/sdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdIcon"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+        	/>
+        
+        <TextView
+            android:id="@+id/sdPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdName"
+            android:layout_centerHorizontal="true"
+        	/>
+        
+        <TextView
+            android:id="@+id/sdAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdPhone"
+            android:layout_centerHorizontal="true"
+        	/>
+        
+        <TextView
+            android:id="@+id/sdWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdAddress"
+            android:layout_centerHorizontal="true"
+        	/>
+        
+        <TextView
+            android:id="@+id/sdLDescript"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/sdWebsite"
+            android:layout_centerHorizontal="true"
+        	/>
+ 
+</RelativeLayout>
