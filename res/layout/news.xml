@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/pcb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/news" />
+	
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+           <LinearLayout
+               android:clickable = "true"
+               android:id="@+id/article1"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:background="#80FFFFFF"
+               android:gravity="left"
+               android:orientation="horizontal"
+               android:padding="5dp" >
+
+               <ImageView
+                   android:duplicateParentState="true"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/article1" />
+
+               <LinearLayout
+                   android:id="@+id/article1_2"
+                   android:clickable="true"
+                   android:duplicateParentState="true"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:orientation="vertical" >
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="2012 Water Quality Report"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Jun 13, 2013, 3:28 PM by Richard Ferrick"
+                       android:textSize="8sp" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="The Panama City Water Quality Report for 2012 is now available for review online. Click to read more." />
+            	</LinearLayout>
+          	</LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/article2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#80FFFFFF"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <LinearLayout
+                    android:id="@+id/article2_2"
+                    android:clickable="true"
+                    android:duplicateParentState="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2012 Water Quality Report"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jul 19, 2013, 2:07 PM by Record Copy"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="The City of Panama City&apos;s proposed budget document for Fiscal Year 2014 is now available online. Click to read more." />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:id="@+id/article3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:background="#80FFFFFF"
+                android:gravity="left"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <ImageView
+                    android:duplicateParentState="true"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/article3" />
+
+                <LinearLayout
+                    android:id="@+id/article3_2"
+                    android:clickable="true"
+                    android:duplicateParentState="true"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The City of Panama City Public Events Handbook"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jul 17, 2012, 4:14 PM by Richard Ferrick"
+                        android:textSize="8sp" />
+
+                    <TextView
+                        android:duplicateParentState="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="It is the intent of the City of Panama City to maintain a special events… Click to read more." />
+                </LinearLayout>
+            </LinearLayout>
+            
+           <LinearLayout
+               android:clickable="true"
+               android:id="@+id/article4"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:background="#80FFFFFF"
+               android:gravity="left"
+               android:orientation="horizontal"
+               android:padding="5dp" >
+
+               <ImageView
+                   android:duplicateParentState="true"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/article4" />
+
+               <LinearLayout
+                   android:id="@+id/article4_2"
+                   android:clickable="true"
+                   android:duplicateParentState="true"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:orientation="vertical" >
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Online Crime-Mapping"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Feb 8, 2011, 4:12 PM by Richard Ferrick"
+                       android:textSize="8sp" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="The Panama City Police have partnered with the nations largest and most comprehensive crime-mapping provider... Click to read more." />
+               </LinearLayout>
+           </LinearLayout>
+           
+           <LinearLayout
+               android:clickable="true"
+               android:id="@+id/article5"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:background="#80FFFFFF"
+               android:gravity="left"
+               android:orientation="horizontal"
+               android:padding="5dp" >
+
+               <ImageView
+                   android:duplicateParentState="true"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/article5" />
+
+               <LinearLayout
+                   android:id="@+id/article5_2"
+                   android:clickable="true"
+                   android:duplicateParentState="true"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:orientation="vertical" >
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Water &amp; Wastewater Rate Sufficiency Review"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Jan 26, 2011, 12:44 PM by Richard Ferrick"
+                       android:textSize="8sp" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="Public Resources Management Group, Inc. (PRMG) has completed its Water and Wastewater Rate Sufficiency Review... Click to read more." />
+               </LinearLayout>
+           </LinearLayout>
+           
+           <LinearLayout
+               android:clickable="true"
+               android:id="@+id/article6"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:background="#80FFFFFF"
+               android:gravity="left"
+               android:orientation="horizontal"
+               android:padding="5dp" >
+
+               <ImageView
+                   android:duplicateParentState="true"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/article6" />
+
+               <LinearLayout
+                   android:id="@+id/article6_2"
+                   android:clickable="true"
+                   android:duplicateParentState="true"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:orientation="vertical" >
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Affordable Housing Survey"
+                       android:textStyle="bold" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Aug 13, 2010, 12:14 PM by Richard Ferrick"
+                       android:textSize="8sp" />
+
+                   <TextView
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="Panama City Community Development would appreciate your participation... Click to read more." />
+               </LinearLayout>
+           </LinearLayout>
+           
+            <LinearLayout
+               android:clickable="true"
+               android:id="@+id/article7"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="5dp"
+               android:background="#80FFFFFF"
+               android:gravity="left"
+               android:orientation="horizontal"
+               android:padding="5dp" >
+
+               <ImageView
+                   android:duplicateParentState="true"
+                   android:layout_width="100dp"
+                   android:layout_height="100dp"
+                   android:layout_gravity="center"
+                   android:src="@drawable/article7" />
+
+               <LinearLayout
+                   android:id="@+id/article7_2"
+               	   android:clickable="true"
+                   android:duplicateParentState="true"
+                   android:layout_width="fill_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:orientation="vertical" >
+
+                   <TextView
+               	       android:clickable="true"
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="BioDiesel Program"
+                       android:textStyle="bold" />
+
+                   <TextView
+               	       android:clickable="true"
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Apr 20, 2010, 12:07 PM by Richard Ferrick"
+                       android:textSize="8sp" />
+
+                   <TextView
+               	       android:clickable="true"
+                       android:duplicateParentState="true"
+                       android:layout_width="fill_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="10dp"
+                       android:text="Participate in Panama City's GREEN initiative program by bringing us... Click to read more." />
+               </LinearLayout>
+           </LinearLayout>
+           
+     	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -33,6 +33,9 @@
         <activity android:name="EntertainmentDetails"></activity>
         <activity android:name="EducationActivity"></activity>
         <activity android:name="EmploymentActivity"></activity>
+        <activity android:name="NewsActivity"></activity>
+        <activity android:name="DiningActivity"></activity>
+        <activity android:name="HistoryActivity"></activity>
     </application>
 
 </manifest>

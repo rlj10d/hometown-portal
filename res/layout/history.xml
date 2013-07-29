@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:background="@drawable/pcb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/history" />
+    
+    <ScrollView
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:background="#80FFFFFF" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:src="@drawable/historypanamacity" />
+            
+            <TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Before modern settlement began in the 1800s, the St. Andrew Bay area was home to Native Americans. Then, as today, the abundant fish in the Gulf of Mexico and St. Andrew Bay provided fresh seafood to those original locals, as well as visitors to the sandy white shores." />
+           
+            <TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spanish explorers gave the St. Andrew Bay its present name in the 1500's as they explored the northeast gulf coast. Pirates also found the deep pockets of the Bay to be a prime spot to lie in wait for richly laden European ships en route to Mexico or Spain. An old Spanish galleon and a 700-pound cannon were unearthed during construction of a motel in the early 60s, proving the presence of such pirates... and opening the door to the possibility of pirate treasure! Thanks to the sinking of modern day ships for artificial reefs, the Gulf of Mexico waters off Panama City Beach are well known with sport divers, who find treasure of a different kind in colorful marine life and underwater adventure, prompting Skin Diver Magazine to dub the area the 'Wreck Diving Capital of the Southeast.'" />
+            
+		 	<TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Although the area was alive with settlers and the St. Andrew Bay was even the site of a skirmish during the Civil War, Panama City Beach's history doesn't officially begin until May 2, 1936, when the city was founded. The city's name was reportedly based on being the nearest American port to the newly opened Panama Canal. Surrounding the new city were other, small cities known as West Panama City Beach, Long Beach and Edgewater. Some years later, the four merged to form a single chartered government, which kept the name of Panama City Beach." />
+		 	
+		 	<TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In 1935, developer Gideon Thomas built the Panama City Hotel. Thomas saw great potential in the area for tourism development at a time when most people were only concerned with harvesting crops. Many criticized his vision of Panama City Beach, arguing that there was no future in what they deemed 'the ugly white sand.' " />
+		 	
+		 	<TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thomas told his critics, 'I'm not attempting to grow vegetables here; I'm going to grow people.' And grow people he did! It wasn't long before Gideon Thomas' ideas began to catch on, and the beach became a popular destination for fun-loving travelers. In the 30s and 40s the beach was known for a beach bar called 'The Hangout.' The white building with bright red trim was a hotspot for dancing and mingling on the beach until it was destroyed by Hurricane Eloise in 1975." />
+		 	
+		 	<TextView
+       		 	android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Through the years the face of Panama City Beach has continued to evolve and change. Today it is a premiere destination for visitors from across the world, most of whom flock to bask in the Florida sun, play on the beautiful white sand beaches, and watch the same amazing sunsets over the Gulf of Mexico that travelers and locals alike have been treated to for thousands of years." />
+            
+		 	<TextView
+                android:id="@+id/textLink"
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0000FF"
+                android:textSize="12sp"
+                android:text="Learn More..." />
+		 	
+            <TextView
+        		android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="8sp"
+                android:text="Reference: http://www.visitpanamacitybeach.com/about/history/" />
+            
+        </LinearLayout>
+    </ScrollView>
+	
+</LinearLayout>

@@ -39,8 +39,9 @@ public class MainActivity extends Activity {
 		
 	}
 	
-	public void diningActivity(View view) {
-		
+	public void diningActivity(View view) {		
+		Intent i = new Intent(this, DiningActivity.class);
+		startActivity(i);
 	}
 	
 	public void shoppingActivity(View view) {
@@ -61,11 +62,13 @@ public class MainActivity extends Activity {
 	}
 	
 	public void newsActivity(View view) {
-		
+		Intent i = new Intent(this, NewsActivity.class);
+		startActivity(i);
 	}
 	
 	public void historyActivity(View view) {
-		
+		Intent i = new Intent(this, HistoryActivity.class);
+		startActivity(i);
 	}
 
 }
