@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bPrimarySchools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Primary Schools" />
+
+    <Button
+        android:id="@+id/bSecondarySchools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Secondary Schools" />
+
+    <Button
+        android:id="@+id/bColleges"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Colleges" />
+
+    <Button
+        android:id="@+id/bUniversities"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClick"
+        android:text="Universities" />
+
+</LinearLayout>
+
+<!--  
+
+/*
+ * Roy Johnson - rlj10d
+ * CIS 4930 - Android
+ * 7/21/13
+ * Group Portal Project
+ * 
+ * This XML Layout defines the UI for the Education Activity
+ */
+
+ -->

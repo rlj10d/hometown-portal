@@ -30,6 +30,8 @@
         <activity android:name="Nightlife"></activity>
         <activity android:name="Arts"></activity>
         <activity android:name="EntertainmentDetails"></activity>
+        <activity android:name="EducationActivity"></activity>
+        <activity android:name="EmploymentActivity"></activity>
     </application>
 
 </manifest>

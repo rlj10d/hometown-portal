@@ -51,11 +51,13 @@ public class MainActivity extends Activity {
 	}
 	
 	public void employmentActivity(View view) {
-		
+		Intent i = new Intent(this, EmploymentActivity.class);
+		startActivity(i);
 	}
 	
 	public void schoolActivity(View view) {
-		
+		Intent i = new Intent(this, EducationActivity.class);
+		startActivity(i);
 	}
 	
 	public void newsActivity(View view) {
