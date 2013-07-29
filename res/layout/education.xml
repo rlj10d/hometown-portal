@@ -23,14 +23,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="onButtonClick"
-        android:text="Colleges" />
+        android:text="Colleges &amp; Universities" />
 
-    <Button
-        android:id="@+id/bUniversities"
+    <EditText
+        android:id="@+id/editText1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onButtonClick"
-        android:text="Universities" />
+        android:ems="10"
+        android:editable="false"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
 
 </LinearLayout>
 
